@@ -1,0 +1,8 @@
+services:
+  dev-env:
+    build: .
+    volumes:
+      - .:/project
+    ports:
+      - "5173:5173"
+    command: tail -f /dev/null
