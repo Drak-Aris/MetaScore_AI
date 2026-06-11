@@ -6,4 +6,4 @@ RUN apt-get update && \
 
 WORKDIR /project
 
-#docker compose exec dev-env /bin/bash
+#docker compose up -d dev-env  docker compose exec dev-env /bin/bash
